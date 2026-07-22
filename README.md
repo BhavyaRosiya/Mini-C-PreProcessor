@@ -73,3 +73,31 @@ make
 | Nested Header Files | Yes |
 | Comment Removal | Yes |
 
+## Example
+
+### Input
+
+```c
+#define PI 3.14
+#include "header.h"
+#include<stdio.h>
+
+// sample comment
+
+int main()
+{
+    printf("%f", PI);
+    printf("%d", Sq(5));
+}
+```
+### Output
+
+```c
+int main()
+{
+    printf("%f", 3.14);
+    printf("%d", ((5)*(5)));
+}
+```
+
+---
