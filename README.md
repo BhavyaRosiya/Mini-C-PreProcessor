@@ -78,26 +78,42 @@ make
 ### Input
 
 ```c
-#define PI 3.14
-#include "header.h"
 #include<stdio.h>
-
-// sample comment
-
-int main()
-{
-    printf("%f", PI);
-    printf("%d", Sq(5));
+#include<string.h>
+#define abc 3456
+#define pf printf
+#define coding 65
+int main(){
+// delete single line comment
+int k=abc;
+/* remove multi line comment
+*/
+pf(“%d %d\n”,k,coding );
 }
 ```
 ### Output
 
 ```c
-int main()
-{
-    printf("%f", 3.14);
-    printf("%d", ((5)*(5)));
+header file content
+int main(){
+int k= 3456;
+printf(“%d %d \n”,k, 65 );
 }
 ```
+## Learning Outcomes
+
+- Understanding the C compilation process
+- Working with preprocessor directives
+- File parsing and transformation
+- Macro expansion techniques
+- Modular programming and Makefiles
+- Git and GitHub workflow
+
+---
+## Author
+
+**Bhavya Rosiya**
+
+Interested in **Embedded Systems**, **System Programming**, and **C/C++ Development**
 
 ---
