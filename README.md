@@ -54,12 +54,15 @@ mini-c-preprocessor/
 make
 
 ## How to Run
+```bash
 ./exe input.c
+```
 
 **or**
 
-
+```bash
 ./a.out input.c
+```
 
 *(Depending on your executable name.)*
 
