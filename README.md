@@ -58,7 +58,7 @@ make
 
 **or**
 
-```bash
+
 ./a.out input.c
 
 *(Depending on your executable name.)*
