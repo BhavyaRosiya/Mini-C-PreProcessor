@@ -30,25 +30,14 @@ The project is developed entirely in C using file handling, string manipulation,
 ```text
 mini-c-preprocessor/
 │
-├── src/
-│   ├── main.c
-│   ├── macro.c
-│   ├── include.c
-│   ├── comment.c
-│   └── utils.c
-│
-├── include/
-│   └── preprocessor.h
-│
-├── input/
-│   └── input.c
-│
-├── output/
-│   └── output.i
-│
-├── Makefile
-├── README.md
-└── .gitignore
+├── README.md                # Project documentation
+├── abc.c                    # Sample input source file
+├── comment.c                # Comment removal module
+├── extra.h                  # User-defined header file
+├── header_inclusion.c       # Header file inclusion implementation
+├── headerfile.c             # Header file processing
+├── macro.c                  # Macro substitution implementation
+├── makefile                 # Build script
 ```
 ## How to Build
 make
